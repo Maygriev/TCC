@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5817730146291124834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3844412721539914313}
+  - component: {fileID: 2719325385730535424}
+  - component: {fileID: -1581460705408138078}
+  m_Layer: 0
+  m_Name: Bless Weapons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3844412721539914313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5817730146291124834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2719325385730535424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5817730146291124834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d189349159b06984c88a77b37b41bd5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  actionName: "Aben\xE7oar as Armas"
+  actionDescription: 
+  levelRequired: 2
+  actionAnimation: SpecialAttack
+  actionTarget: 1
+  actionType: 3
+  actionAOE: 1
+  attackType: 1
+  statScaling: 4
+  statMultiplier: 1
+  duration: 0
+  heroicCharge: 8
+  extraEffects: []
+  tempEffects:
+  - {fileID: -1581460705408138078}
+--- !u!114 &-1581460705408138078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5817730146291124834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd7a728f6b165b4aa6acf3d104e180b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0
+  tempHealth: 0
+  tempWill: 0
+  tempMight: 1
+  tempSkill: 1
+  tempFaith: 1
+  tempArmor: 0
+  tempRes: 0
