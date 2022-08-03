@@ -169,7 +169,7 @@ public class TurnSystem : MonoBehaviour
         keys.Add(KeyCode.Space);
         keys.Add(KeyCode.Mouse0);
         yield return WaitForKeyPressRoutine(keys);
-        SceneManager.LoadScene("Polis");
+        SceneManager.LoadScene("Demo");
     }
 
     public IEnumerator PlayerTurn() {
