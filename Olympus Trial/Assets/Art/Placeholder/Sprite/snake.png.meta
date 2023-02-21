@@ -60,7 +60,7 @@ TextureImporter:
       213: 7726647414754227126
     second: snake_18
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -81,6 +81,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -119,6 +120,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -146,6 +148,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -568,6 +582,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      snake_0: -8688392260014441854
+      snake_1: 8964828684589300045
+      snake_10: 6357215683155186337
+      snake_11: -7071220979795649887
+      snake_12: 8246457370690664698
+      snake_13: 5403961436381045005
+      snake_14: -6859257499210778722
+      snake_15: -1407653425539052611
+      snake_16: -3459226755682038546
+      snake_17: 8619143378354016903
+      snake_18: 7726647414754227126
+      snake_2: -3946499141775193120
+      snake_3: 4479720658561634729
+      snake_4: -3399037153431705778
+      snake_5: -4978297785292227087
+      snake_6: 5910609365090145371
+      snake_7: -498161800001825481
+      snake_8: 8314111628943662148
+      snake_9: 2209767978303034242
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

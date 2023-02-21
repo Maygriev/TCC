@@ -17,8 +17,8 @@
 		],
 		"editor_state": {
 			"current_level": 0,
-			"camera_position": "Vector2( 7591.35, 2964.15 )",
-			"camera_zoom": 3.2,
+			"camera_position": "Vector2( 4793.52, 3559.52 )",
+			"camera_zoom": 12.012012,
 			"guide_position": "null",
 			"trace_image": null,
 			"color_palettes": {
@@ -160,7 +160,7 @@
 		"format": 3,
 		"width": 35,
 		"height": 20,
-		"next_node_id": "379",
+		"next_node_id": "39e",
 		"next_prefab_id": "3",
 		"msi": {
 			"offset_map_size": 512,
@@ -180,7 +180,7 @@
 			"0": {
 				"label": "Ground",
 				"environment": {
-					"baked_lighting": true,
+					"baked_lighting": false,
 					"ambient_light": "f5000000"
 				},
 				"layers": {
@@ -1053,7 +1053,7 @@
 				"water": {
 					"disable_border": false,
 					"tree": {
-						"ref": -1329055498,
+						"ref": 702515638,
 						"polygon": "PoolVector2Array(  )",
 						"join": 0,
 						"end": 0,
@@ -1063,7 +1063,7 @@
 						"blend_distance": 0,
 						"children": [
 							{
-								"ref": -1021632354,
+								"ref": 1429644710,
 								"polygon": "PoolVector2Array( 5045, 2919, 5099, 2950, 5125, 2984, 5156, 2998, 5178, 3036, 5203, 3077, 5257, 3112, 5273, 3135, 5321, 3168, 5353, 3207, 5351, 3274, 5354, 3327, 5301, 3356, 5281, 3403, 5249, 3427, 5221, 3467, 5183, 3477, 5145, 3531, 5110, 3559, 5048, 3541, 4980, 3542, 4921, 3553, 4870, 3556, 4831, 3515, 4802, 3481, 4745, 3485, 4712, 3455, 4664, 3430, 4650, 3389, 4641, 3327, 4595, 3300, 4573, 3269, 4587, 3189, 4573, 3134, 4618, 3107, 4635, 3060, 4674, 3044, 4734, 3035, 4755, 3004, 4797, 2965, 4837, 2935, 4862, 2917, 4932, 2907, 4985, 2900 )",
 								"join": 0,
 								"end": 0,
@@ -1076,7 +1076,7 @@
 								]
 							},
 							{
-								"ref": 1484876882,
+								"ref": -358813350,
 								"polygon": "PoolVector2Array( 2140, 445, 2171, 482, 2202, 520, 2182, 536, 2132, 571, 2113, 609, 2076, 646, 2052, 684, 2007, 706, 1996, 723, 1913, 728, 1894, 774, 1852, 797, 1791, 809, 1763, 819, 1716, 862, 1689, 896, 1662, 936, 1598, 935, 1577, 948, 1537, 980, 1515, 1015, 1469, 1055, 1451, 1086, 1410, 1129, 1350, 1123, 1314, 1149, 1276, 1181, 1241, 1205, 1226, 1244, 1164, 1240, 1124, 1213, 1092, 1188, 1065, 1152, 1098, 1125, 1119, 1080, 1128, 1030, 1145, 993, 1180, 954, 1188, 883, 1188, 822, 1212, 809, 1255, 773, 1279, 725, 1320, 714, 1341, 682, 1385, 648, 1396, 603, 1427, 577, 1467, 548, 1543, 542, 1555, 503, 1593, 490, 1669, 483, 1720, 477, 1786, 470, 1812, 445, 1863, 418, 1913, 413, 1940, 447, 1985, 490, 2012, 460, 2043, 423, 2116, 412 )",
 								"join": 0,
 								"end": 0,
@@ -1089,7 +1089,7 @@
 								]
 							},
 							{
-								"ref": 1145860934,
+								"ref": 711593534,
 								"polygon": "PoolVector2Array( 6452, 935, 6486, 955, 6534, 986, 6568, 1022, 6590, 1049, 6622, 1078, 6592, 1118, 6565, 1140, 6522, 1194, 6468, 1171, 6423, 1163, 6390, 1115, 6324, 1119, 6284, 1107, 6236, 1162, 6201, 1183, 6140, 1191, 6123, 1205, 6114, 1272, 6120, 1352, 6101, 1419, 6074, 1430, 6037, 1459, 6010, 1511, 5987, 1464, 5961, 1451, 5915, 1411, 5914, 1334, 5910, 1292, 5910, 1164, 5946, 1124, 5993, 1089, 6018, 1043, 6035, 1023, 6071, 990, 6154, 1000, 6184, 970, 6205, 921, 6274, 932, 6346, 916, 6389, 923 )",
 								"join": 0,
 								"end": 0,
@@ -1105,9 +1105,7 @@
 					}
 				},
 				"materials": {
-					"-400": [
 
-					]
 				},
 				"paths": [
 
@@ -1306,94 +1304,124 @@
 				],
 				"lights": [
 					{
-						"position": "Vector2( 827.542, 5118.33 )",
+						"position": "Vector2( 871.078, 4941.24 )",
 						"rotation": 0,
-						"range": 4,
+						"range": 5,
 						"intensity": 1,
 						"color": "ffeccd8b",
 						"texture": "res://textures/lights/soft.png",
 						"shadows": true,
-						"node_id": "370"
+						"node_id": "37c"
 					},
 					{
-						"position": "Vector2( 1175.54, 3990.33 )",
-						"rotation": 0,
-						"range": 6,
-						"intensity": 1,
-						"color": "ffeccd8b",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "371"
-					},
-					{
-						"position": "Vector2( 3427.54, 2062.33 )",
-						"rotation": 0,
-						"range": 6,
-						"intensity": 1,
-						"color": "ffeccd8b",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "372"
-					},
-					{
-						"position": "Vector2( 1907.54, 1174.33 )",
-						"rotation": 0,
-						"range": 6,
-						"intensity": 1,
-						"color": "ffeccd8b",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "373"
-					},
-					{
-						"position": "Vector2( 4603.54, 3646.33 )",
-						"rotation": 0,
-						"range": 10,
-						"intensity": 1,
-						"color": "ffeccd8b",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "374"
-					},
-					{
-						"position": "Vector2( 6791.54, 4546.33 )",
-						"rotation": 0,
-						"range": 4,
-						"intensity": 1,
-						"color": "ffeccd8b",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "375"
-					},
-					{
-						"position": "Vector2( 8223.54, 3582.33 )",
-						"rotation": 0,
-						"range": 4,
-						"intensity": 1,
-						"color": "ffeccd8b",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "376"
-					},
-					{
-						"position": "Vector2( 6419.54, 1559.72 )",
-						"rotation": 0,
-						"range": 4,
-						"intensity": 1,
-						"color": "ffeccd8b",
-						"texture": "res://textures/lights/fragments.png",
-						"shadows": true,
-						"node_id": "377"
-					},
-					{
-						"position": "Vector2( 8464.95, 3928.95 )",
+						"position": "Vector2( 860.207, 3973.72 )",
 						"rotation": 0,
 						"range": 4.5,
 						"intensity": 1,
 						"color": "ffeccd8b",
-						"texture": "res://textures/lights/fragments.png",
+						"texture": "res://textures/lights/soft.png",
 						"shadows": true,
-						"node_id": "378"
+						"node_id": "37e"
+					},
+					{
+						"position": "Vector2( 1420.21, 3963.05 )",
+						"rotation": 0,
+						"range": 4.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "37f"
+					},
+					{
+						"position": "Vector2( 2407.27, 3198.2 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "392"
+					},
+					{
+						"position": "Vector2( 3095.27, 2246.2 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "393"
+					},
+					{
+						"position": "Vector2( 4231.27, 2534.2 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "394"
+					},
+					{
+						"position": "Vector2( 4591.27, 3550.2 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "395"
+					},
+					{
+						"position": "Vector2( 5383.27, 3014.2 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "396"
+					},
+					{
+						"position": "Vector2( 6013.93, 4161.13 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "399"
+					},
+					{
+						"position": "Vector2( 6808.6, 4566.46 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "39a"
+					},
+					{
+						"position": "Vector2( 7752.6, 3702.46 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "39b"
+					},
+					{
+						"position": "Vector2( 8472.6, 3942.46 )",
+						"rotation": 0,
+						"range": 7.5,
+						"intensity": 1,
+						"color": "ffeccd8b",
+						"texture": "res://textures/lights/soft.png",
+						"shadows": true,
+						"node_id": "39c"
 					}
 				],
 				"roofs": {

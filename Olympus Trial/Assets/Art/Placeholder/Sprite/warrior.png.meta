@@ -57,7 +57,7 @@ TextureImporter:
       213: -4078238448897056530
     second: warrior_17
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -78,6 +78,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -116,6 +117,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -143,6 +145,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -544,6 +558,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      warrior_0: 3944610533857416082
+      warrior_1: -8250692648091073042
+      warrior_10: -3623450985298977635
+      warrior_11: 6145270939963307868
+      warrior_12: -6229265477101577713
+      warrior_13: -8348038918296974370
+      warrior_14: -516001099829509352
+      warrior_15: 3105619408779993694
+      warrior_16: -5930602804485904639
+      warrior_17: -4078238448897056530
+      warrior_2: 6082431078867552424
+      warrior_3: -6685751656208671807
+      warrior_4: -827418515622110634
+      warrior_5: 8837561024253037414
+      warrior_6: -6688736331810631477
+      warrior_7: 149221846618554330
+      warrior_8: 7277409678728810050
+      warrior_9: -541075975297665223
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

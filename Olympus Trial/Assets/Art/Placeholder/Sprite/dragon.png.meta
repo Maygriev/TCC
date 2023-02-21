@@ -69,7 +69,7 @@ TextureImporter:
       213: 3159674347858194792
     second: dragon_21
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,6 +90,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,6 +129,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -155,6 +157,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -640,6 +654,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      dragon_0: 3428391033546482049
+      dragon_1: -3659253432981061226
+      dragon_10: 2908348714287734447
+      dragon_11: 4345083522021541533
+      dragon_12: 8974491787482733472
+      dragon_13: -3736404483819266320
+      dragon_14: 4831162074713596132
+      dragon_15: 5208012078400439402
+      dragon_16: 3763141654819720974
+      dragon_17: 6260978353501583777
+      dragon_18: 7161945101080694271
+      dragon_19: -6056979042174776029
+      dragon_2: 4787528527978275672
+      dragon_20: 5180974248470753485
+      dragon_21: 3159674347858194792
+      dragon_3: -4942630381886749522
+      dragon_4: 1284593036618238296
+      dragon_5: 2630638477016955818
+      dragon_6: 3882194283577183912
+      dragon_7: -8334837670336803960
+      dragon_8: 7591742993644914627
+      dragon_9: -5685498966254118996
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

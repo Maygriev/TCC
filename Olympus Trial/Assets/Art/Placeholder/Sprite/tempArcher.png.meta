@@ -69,7 +69,7 @@ TextureImporter:
       213: 5040575905374758488
     second: tempArcher_21
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,6 +90,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,6 +129,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -155,6 +157,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -640,6 +654,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      tempArcher_0: -7263543187266045999
+      tempArcher_1: -4945117951152489226
+      tempArcher_10: -5119932135003046207
+      tempArcher_11: -6481013902981060294
+      tempArcher_12: 7180855307467014708
+      tempArcher_13: -9060736058283361846
+      tempArcher_14: 148746616006945988
+      tempArcher_15: -5553369215319063453
+      tempArcher_16: 1125948980584756904
+      tempArcher_17: -6839898866231305850
+      tempArcher_18: -2703319385105277553
+      tempArcher_19: -123094784973098115
+      tempArcher_2: 5545045080229626753
+      tempArcher_20: 3164747345827838123
+      tempArcher_21: 5040575905374758488
+      tempArcher_3: -862664023224750024
+      tempArcher_4: 5099927313412473751
+      tempArcher_5: -4256646306867209596
+      tempArcher_6: 2645381720506182538
+      tempArcher_7: 7509698853427158668
+      tempArcher_8: 2846121000357950983
+      tempArcher_9: -8711680332122941983
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
