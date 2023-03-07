@@ -20,9 +20,9 @@ public class FogOpener : MonoBehaviour
 
     public void Update() {
         if(active){
-            if(gameObject.transform.position == destination) {
+            if(Arrived(destination)) {
                 Expand();
-                Destroy(gameObject, 2);
+                //Destroy(gameObject, 2);
             } else {
                 Vector3 heading = (destination - gameObject.transform.position).normalized;
 
@@ -33,5 +33,13 @@ public class FogOpener : MonoBehaviour
 
     public void Expand() {
         gameObject.transform.localScale = new Vector3(6f,6f,1f);
+    }
+
+    public bool Arrived(Vector3 destination) {
+        if(Vector3.Distance(destination, gameObject.transform.position) < 0.2) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
